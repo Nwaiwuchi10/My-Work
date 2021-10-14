@@ -1,0 +1,264 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* .dov-div {
+  background-color: rgba(0, 0, 0, 0.836);
+  color: white;
+} */
+.hod {
+  /* width: 72%; */
+}
+
+.nav {
+  border: 1px solid transparent;
+  /* width: 91.2%; */
+  width: 72%;
+  padding-left: 29.32%;
+
+  height: 15vh;
+  background-color: white;
+  margin-top: -67%;
+  margin-left: 37.4%;
+}
+.hr-div {
+  /* border-right: 5px solid grey; */
+}
+.divhr {
+  /* float: left; */
+  height: 90vh;
+  width: 10px;
+  overflow-x: hidden;
+  background-color: lightgrey;
+  overflow-y: auto;
+  /* background-color: grey; */
+  position: absolute;
+  top: 5%;
+  left: 25.5%;
+  padding: 3px;
+}
+.icc {
+  font-size: 25px;
+  position: absolute;
+  right: 3%;
+  top: 5%;
+}
+.hid {
+  /* border: 1px solid green;
+  background-color: lightgrey;
+  height: 180vh;
+  width: 70%;
+  margin-top: 7.4%; */
+  /* padding-right: 200px; */
+  /* width: 72%; */
+  /* width: 100%; */
+  /* padding-left: 29.32%; */
+  /* margin-right: 4%;
+  padding-right: 47%; */
+  /* margin-left: 37.4%; */
+}
+.advert {
+  /* background-image: linear-gradient(rgba(4, 9, 30, 0.7)), url(img.png); */
+}
+.puyol {
+  position: absolute;
+  left: 22%;
+  top: 65%;
+  font-weight: 700;
+}
+.bod {
+  border: 1px solid white;
+  width: 45%;
+  height: 30%;
+  background-color: white;
+  margin-left: 5%;
+  margin-top: 10%;
+  border-radius: 4px;
+}
+.hh {
+  font-size: 15px;
+  position: absolute;
+  left: 24%;
+  top: 80%;
+  color: gray;
+}
+.hh2 {
+  font-size: 15px;
+  position: absolute;
+  left: 24%;
+  top: 88%;
+  color: gray;
+}
+.circle {
+  width: 40%;
+  border-radius: 150%;
+  background-color: rgb(99, 187, 241);
+  height: 30vh;
+  margin-left: 29%;
+  margin-top: 24%;
+}
+.slider {
+  overflow: hidden;
+  border: 2px solid honeydew;
+  border-radius: 5px;
+  /* margin-top: 15%; */
+  width: 71%;
+  margin-left: 15%;
+  height: 40vh;
+  background-color: honeydew;
+}
+.slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  animation: 20s slider infinite;
+}
+
+.slider figure img {
+  float: left;
+  width: 20%;
+}
+
+@keyframes slider {
+  0% {
+    left: 0;
+  }
+  20% {
+    left: 0;
+  }
+  25% {
+    left: -100%;
+  }
+  45% {
+    left: -100%;
+  }
+  50% {
+    left: -200%;
+  }
+  100% {
+    left: -200%;
+  }
+}
+.job {
+  border: 1px solid rgba(185, 107, 228, 0.822);
+  width: 44%;
+  height: 20%;
+  margin-top: -31.7%;
+  background-color: rgba(185, 107, 228, 0.822);
+  margin-left: 52%;
+  border-radius: 4px;
+  color: white;
+}
+.uli {
+  font-size: 18px;
+  font-weight: 500;
+  float: left;
+  margin-top: 4%;
+  justify-content: space-between;
+  margin-left: -5%;
+}
+.jak {
+  position: absolute;
+  left: 24%;
+}
+.sect {
+  margin-left: 40%;
+  margin-top: 5%;
+}
+.select {
+  width: 68%;
+  padding: 10px;
+  padding-left: 8px;
+  border-radius: 4px;
+  font-size: 15px;
+}
+option {
+  background-color: white;
+  border: 1px solid blue;
+  color: black;
+  text-align: center;
+  margin-top: 5%;
+}
+.va {
+  position: absolute;
+  right: 9%;
+  font-size: 8px;
+  font-weight: 700;
+  top: 94%;
+  color: white;
+}
+.va2 {
+  position: absolute;
+  right: 11.5%;
+  font-size: 8px;
+  font-weight: 700;
+  top: 105%;
+}
+.hr4 {
+  color: green;
+}
+.line {
+  width: 0.2%;
+  height: 45%;
+  color: white;
+  background-color: rgba(241, 236, 236, 0.979);
+  margin-left: 45%;
+  margin-top: 8%;
+}
+.bd-c {
+  border: 1px solid white;
+  width: 44%;
+  height: 25%;
+  margin-top: -97.4%;
+  background-color: white;
+  margin-left: 52%;
+  border-radius: 4px;
+  color: white;
+}
+.bd-d {
+  border: 1px solid white;
+  width: 44%;
+  height: 40%;
+  margin-top: 2%;
+  background-color: white;
+  margin-left: 52%;
+  border-radius: 4px;
+  color: white;
+}
+.bod1 {
+  border: 1px solid rgba(185, 107, 228, 0.822);
+  width: 22%;
+  height: 40%;
+  background-color: rgba(185, 107, 228, 0.822);
+  margin-left: 5%;
+  margin-top: 13%;
+  border-radius: 9px;
+}
+.bod2 {
+  border: 1px solid rgb(99, 187, 241);
+  width: 21%;
+  height: 19%;
+  background-color: rgb(99, 187, 241);
+  margin-left: 29%;
+  margin-top: -42.2%;
+  border-radius: 4px;
+}
+.bod3 {
+  border: 1px solid rgb(221, 236, 81);
+  width: 21%;
+  height: 19%;
+  background-color: rgb(221, 236, 81);
+  margin-left: 29%;
+  margin-top: 2.2%;
+  border-radius: 4px;
+}
+.bod4 {
+  border: 1px solid white;
+  width: 45%;
+  height: 40%;
+  background-color: white;
+  margin-left: 5%;
+  margin-top: 2%;
+  border-radius: 4px;
+}

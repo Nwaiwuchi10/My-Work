@@ -1,0 +1,197 @@
+.hol {
+  margin-top: -72.32%;
+  margin-left: 20.4%;
+  border: 1px solid transparent;
+  background: white;
+  height: 100vh;
+  width: 79.5%;
+  /* width: 100%; */
+}
+.hol1 {
+  border: 1px solid transparent;
+
+  background: white;
+  height: 12vh;
+}
+
+.cicons {
+  position: absolute;
+  right: 7.7%;
+  /* left: 105%; */
+  background-color: white;
+
+  top: 4.5%;
+}
+.cicons1 {
+  position: absolute;
+  right: 7.5%;
+  /* left: 106%; */
+  top: 3.5%;
+  background-color: blue;
+  padding: -50px;
+  border-radius: 120%;
+  width: 13px;
+  color: blue;
+}
+.imm {
+  width: 35px;
+  border: 1px solid transparent;
+  border-radius: 70px;
+  position: absolute;
+  right: 3%;
+  /* left: 110%; */
+  top: 3%;
+  background-color: white;
+  /* animation: rotation infinite 3s linear; */
+}
+/* @keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+.col {
+  border: 1px solid transparent;
+  background-color: whitesmoke;
+  height: 137vh;
+}
+.tp {
+  background-color: whitesmoke;
+  position: absolute;
+  left: 22.2%;
+  top: 15.5%;
+}
+.bol {
+  border: 1px solid transparent;
+
+  width: 95%;
+  height: 104vh;
+  /* height: 85vh; */
+  background-color: white;
+  margin-left: 2%;
+  margin-top: 12%;
+  border-radius: 1%;
+}
+.tst {
+  color: blue;
+  position: absolute;
+  top: -18%;
+}
+.input {
+  background-color: white;
+  position: absolute;
+  top: -10.5%;
+  border: 1px solid lightgray;
+  left: 0%;
+  border-color: lightgray;
+  border-radius: 6%;
+}
+.input ::placeholder {
+  font-size: 13px;
+  position: absolute;
+  left: 19%;
+}
+.search {
+  background-color: white;
+  position: relative;
+  top: -9.5%;
+  left: -20%;
+  min-width: 10px;
+}
+.tip {
+  font-size: 3%;
+  position: absolute;
+  top: 22.7%;
+  right: 2.5%;
+  /* right: -15%; */
+  color: purple;
+  border: 1px solid purple;
+  border-radius: 3px;
+  padding: 5px;
+  background-color: white;
+}
+
+.tab {
+  background-color: white;
+  font-size: small;
+  font-weight: 500;
+  padding: 10px;
+  padding-right: 70px;
+}
+.box {
+  background-color: white;
+}
+.dab {
+  display: flexbox;
+  background-color: white;
+  /* padding-left: 39px; */
+  /* padding-left: 12px; */
+  padding-right: 70px;
+  padding-top: 35px;
+  /* padding-top: 28px; */
+  padding-left: 10px;
+  /* padding-top: 26px; */
+  font-size: small;
+  font-weight: 500;
+}
+.day {
+  padding: 10px;
+}
+
+.hrr {
+  color: lightgrey;
+  background-color: rgb(252, 252, 252);
+  min-height: -10vh;
+  position: absolute;
+  left: 22.2%;
+  width: 75.34%;
+  /* width: 97%; */
+}
+.rap {
+  position: absolute;
+
+  top: 43%;
+  left: 32.4%;
+  color: lightgray;
+  background-color: white;
+}
+.rap1 {
+  position: absolute;
+  top: 43%;
+  left: 46.1%;
+  background-color: white;
+  color: lightgrey;
+}
+.rap2 {
+  position: absolute;
+  top: 43%;
+  left: 63.62%;
+  background-color: white;
+  color: lightgrey;
+}
+.rap3 {
+  position: absolute;
+  top: 43%;
+  right: 20%;
+  /* left: 98.95%; */
+  background-color: white;
+  color: lightgrey;
+}
+.rap4 {
+  position: absolute;
+  top: 43%;
+  right: 8.9%;
+  /* left: 112.67%; */
+  background-color: white;
+  color: lightgrey;
+}
+.check {
+  background-color: whitesmoke;
+}
+.ret {
+  background-color: white;
+  color: lightgrey;
+}

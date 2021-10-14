@@ -1,0 +1,148 @@
+.container {
+  margin-top: 8%;
+  text-align: center;
+  font-size: 190%;
+  font-style: inherit;
+}
+.cont {
+  width: 150%;
+  margin-left: 14%;
+  margin-top: 4%;
+  font-size: 60%;
+  font-weight: 400;
+}
+.cont .conts img {
+  width: 47%;
+  height: 35vh;
+}
+.cont .pp {
+  width: 40%;
+  margin-left: 29%;
+}
+
+.kat {
+  /* margin-left: 20%; */
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  gap: -54px;
+  margin-top: 3%;
+  column-gap: 0px -40px;
+}
+.conts {
+  margin-top: 4%;
+}
+@media screen and (max-width: 700px) {
+  .cont .conts img {
+    width: 100%;
+    margin-bottom: 50%;
+  }
+}
+@media (max-width: 700px) {
+  .cont {
+    width: 90.5%;
+    margin-left: 0.5%;
+    height: 100vh;
+    grid-column: 1/ -1;
+    /* margin-top: 40%; */
+    margin: -120px;
+    margin-top: -27%;
+  }
+}
+
+@media (max-width: 700px) {
+  .cont .conts1 img {
+    min-width: 100%;
+    margin-top: 60%;
+    margin-left: -52%;
+  }
+}
+.cont .conts1 img {
+  width: 24%;
+  height: 35vh;
+  position: absolute;
+  left: 54%;
+}
+.lat {
+  position: relative;
+  left: 26%;
+  font-size: 85%;
+  word-spacing: 20%;
+}
+@media (max-width: 700px) {
+  .lat {
+    margin-left: -27%;
+    font-size: 70%;
+  }
+}
+
+@media (max-width: 700px) {
+  .cont .conter {
+    position: relative;
+    top: -42%;
+  }
+}
+@media (max-width: 700px) {
+  .cont .conter1 {
+    position: relative;
+    top: -42%;
+  }
+}
+@media (max-width: 700px) {
+  .cont .conter3 {
+    position: relative;
+    top: -10%;
+    left: 3%;
+  }
+  .kat {
+    margin-top: 8%;
+  }
+  .conts {
+    margin-top: 40%;
+  }
+  .container h2 {
+    /* margin-top: 18%; */
+    margin-top: 10%;
+    font-size: 120%;
+  }
+  .cont .pp {
+    margin-top: -50%;
+    width: 70%;
+    margin-left: 10%;
+  }
+}
+
+.conts image {
+  width: 70%;
+}
+
+.spin {
+  color: crimson;
+  margin-left: 100%;
+}
+
+/* // const [ tasks, setTasks ] = useState ([])
+//  const [ loading, setLoading ] = useState (false) */
+
+/* // useEffect (() =>{
+    //     axios.get ('https://jsonplaceholder.typicode.com/posts')
+    //     .then(res => {
+    //         console.log(res)
+    //         setTasks(res.data)
+    //         setLoading (true);
+    //     }
+    //         ) 
+    //         .catch (err => {
+    //             console.log (err)
+    //         }
+
+    //         )
+    // }
+    // ) */
+
+/* {loading ?  (
+          task
+        ) : (
+            <ReactBootstrap.Spinner animation="border" className="spin" />
+        )}  */

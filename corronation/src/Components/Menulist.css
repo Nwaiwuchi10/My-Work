@@ -1,0 +1,29 @@
+.main-div {
+  background-color: black;
+  /* background-color: brown;
+  background-color: green; */
+  color: white;
+  height: 120vh;
+}
+.img-col {
+  margin-top: -10%;
+  margin-left: 2%;
+}
+.icon-d {
+  margin-top: 40%;
+}
+.sh8 {
+  position: absolute;
+  font-size: 18px;
+  top: 15%;
+  left: 40.5%;
+}
+.sh9 {
+  position: absolute;
+  font-size: 18px;
+  top: 20%;
+  left: 40.5%;
+}
+.list-h :hover {
+  background-color: indigo;
+}

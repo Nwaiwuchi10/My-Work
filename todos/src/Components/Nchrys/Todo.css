@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    background: whitesmoke;
+}
+.Header{
+    width: 100%;
+    display: grid;
+    
+}
+.pis{
+    border: 1px solid;
+    width: 40%;
+    height: 120vh;
+    margin-left: 30%;
+    margin-top: 2%;
+    background-color: rgb(29, 1, 29);
+    border: transparent;
+    
+}
+.uy{
+    background-color: rgb(29, 1, 29);
+    margin-top: 30%;
+}
+.jaw{
+    margin-top: 30%;
+    border: 1px solid transparent;
+    background-color: rgb(201, 5, 152);
+    margin: 3% ;
+    font-size: 20px;
+    border-radius: 6px;
+    color: white;
+    padding: 4px;
+}
+
+.jaw p {
+    background-color: rgb(201, 5, 152);
+}

@@ -1,0 +1,447 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'poppins', sans-serif;
+}
+/*------- Menu Navbar section -----*/
+.navbar-1 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.menu-bars {
+  margin-left: 2rem;
+  font-size: 2rem;
+  background: none;
+}
+.nav-menu {
+  background-color: #060b26;
+  width: 250px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  transition: 850ms;
+}
+.nav-menu.active {
+  left: 0;
+  transition: 350ms;
+}
+.nav-text {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 8px 0px 8px 16px;
+  list-style: none;
+  height: 60px;
+}
+.nav-text a {
+  text-decoration: none;
+  color: #f5f5f5;
+  font-size: 18px;
+  width: 95%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  border-radius: 4px;
+}
+.nav-text a:hover {
+  background-color: #1a83ff;
+}
+.nav-menu-items {
+  width: 100%;
+}
+.navbar-toggle {
+  background-color: #060b26;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+span {
+  margin-left: 16px;
+}
+
+/*------- 20th section last section -----*/
+.puyol-section {
+  width: 100%;
+  height: 30vh;
+  color: white;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.puyol-section h1 {
+  color: whitesmoke;
+  margin-top: 0%;
+  display: flex;
+  justify-content: right;
+  margin-left: 0.5%;
+}
+.puyol-section em {
+   color: green;
+}
+.logo {
+  width: 4.5%;
+  margin-left: 9%;
+}
+.navbar {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: -17%;
+  border: 1px solid;
+  padding: 10px;
+}
+.navbar {
+  margin-left: 40%;
+  margin-top: -20%;
+}
+@media (max-width:700px) {
+  .navbar {
+      margin-top: -47%;
+  }
+}
+.menu {
+  width: 50px;
+  height: 10px;
+  background: gray;
+  margin: 6px 0px;
+}
+.links{
+  flex: 1;
+  text-align: right;
+}
+.links ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+  border: none;
+}
+.links ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12;
+  position: relative;
+  border: none;
+}
+.links ul li{
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+}
+.links ul li{
+display: block;
+}
+.links{
+  position: absolute;
+  background: firebrick;
+  height: 30vh;
+  width: 200px;
+  top: 0;
+  right: -200px;
+  text-align: left;
+  z-index: 2;
+  border: none;
+}
+nav .fas {
+  display: block;
+  color: #fff;
+  margin: 10px
+  font size 22px; 
+  cursor:pointer;
+}
+.links ul{
+  padding: 30px;
+  }
+.links ul li::after{
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: red;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+.links ul li a{
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+}
+.links ul li:hover::after{
+  width: 100%;
+}
+
+.mutiu-section{
+  width: 100%;
+  
+}
+.book-text {
+  width: 100%;
+  height: 40%;
+  background: whitesmoke;
+}
+@media (max-width:700px) {
+  .book-text {
+     height: 41vh;
+     margin-top: 1%;
+  }
+}
+.book-text {
+  color: hsla(hue, saturation, lightness, alpha); 
+  margin-right: 200px;
+  text-align: center;
+  font-family: initial;
+  font-weight: 800;
+  font-style: normal;
+  text-transform: uppercase;
+}
+.book-text h1{
+  font-size: 40px;
+  margin-left: 8%;
+}
+@media (max-width:700px) {
+  .book-text h1{
+     font-size: 30px;
+     margin-left: 2%;
+  }
+}
+.book-text p{
+  margin: 4px 0 4px ;
+  font-size: 20px;
+  color: black;
+  margin-left: 8%;
+
+}
+@media (max-width:700px) {
+  .book-text p{
+     font-size: 16px;
+     margin-left: 1%;
+  }
+}
+.jaga {
+  width: 100%;
+  height: 40vh;
+}
+.jaga {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.book-href{
+  margin-top: 8%;
+    margin-left: 42.5%;
+    display: inline-block;
+    text-decoration: none;
+    color:white;
+    border: 1px solid darkred;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 30px;
+    background: transparent;
+    position: relative;
+    cursor: point;
+    border-color: darkolivegreen;  
+}
+@media (max-width:700px) {
+    .book-href {
+        margin-left: 28%;
+        margin-top: 20%;
+        border: 1px solid;
+      padding: 10px 20px;
+      border-radius: 10px;
+
+  
+        
+    }
+
+}
+a:hover{
+  border: 1px solid red;
+  background: red;
+  transition: 1s;
+}
+.course {
+  background: whitesmoke;
+}
+.course h1{
+      color: hsla(hue, saturation, lightness, alpha); 
+      margin-right: 2%;
+      text-align: center;
+      font-family: initial;
+      font-weight: 800;
+      font-style: normal;
+      text-transform: uppercase;
+}
+p{
+  color: black;
+  font-size: 14px;
+  line-height: 22px;
+  padding: 10px;
+  text-align: center;
+}
+.row-div {
+  text-align: center;
+  color: wheat;
+  background-repeat: repeat;
+  font-weight: 800;
+}
+.mercy ul li{
+  text-align: center;
+}
+.mercy ul li{
+  flex-basis: 31%;
+  background: darkslategray;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  text-align: center;
+}
+h4 {
+  text-align: center;
+  font-size:23px;
+  background: whitesmoke;
+}
+hr {
+color: white;   
+}
+.gods {
+  width: 100%;
+}
+@media (max-width:700px) {
+  .nonny-div  {
+    overflow: hidden;
+  }
+}
+
+@media (max-width:700px) {
+  .nonny-div figure {
+     position: relative;
+     width: 500%;
+     margin: 0;
+     left: 0;
+     animation: 20secs slider infinite;
+  }
+  }
+
+@media (max-width:700px) {
+  .nonny-div figure .nonny {
+     float: left;
+     width: 20%;
+     margin-left: 0.3%; 
+     }
+  }
+
+
+.nonny-div .nonny {
+  width: 18.5%;
+  border-radius: 10px;
+  margin-left: 2%;
+}
+
+    
+  
+
+
+.nonny-div .poping {
+  width: 25.7%;
+  height: 10%;
+  border-radius: 10px;
+}
+.nonny-div .pix-p {
+  width: 20.52%;
+  border-radius: 10px;
+  margin: 0.2%;
+  margin: 0;
+}
+.nonny-div .nadi {
+  width: 30.7%;
+  border-radius: 10px;
+}
+
+/*------- 20th section last section -----*/
+.last-section {
+  width: 100%;
+  height: 45vh;
+  background-color: black;
+}
+@media (max-width:700px) {
+  .last-section {
+     height: 35vh;
+  }
+}
+.last-div h1 {
+  margin-top: 2%;
+  text-align: center;
+  color: wheat;
+  font-size: 30px;
+}
+@media (max-width:700px) {
+  .last-div h1 {
+      margin-top: 3%;
+  }
+}
+.last-div h2 {
+  color: wheat;
+  margin-left: 43%;
+}
+@media (max-width:700px) {
+  .last-div h2 {
+      margin-left: 30%;
+  }
+}
+.last-div img {
+  width: 4%;
+  margin-left: 46%;
+}
+@media (max-width:700px) {
+  .last-div img {
+      margin-left: 40%;
+  }
+}
+.last-div footer {
+  text-align: center;
+  color: wheat;
+  font-size: medium;
+  margin-top: 4%;
+}
+
+
+
+
+
+.event-section {
+  width: 100%;
+  height: 50%;
+  background: firebrick;
+}
+.event-section h1{
+  color: hsla(hue, saturation, lightness, alpha); 
+  margin-right: 200px;
+  text-align: center;
+  font-family: initial;
+  font-weight: 800;
+  font-style: normal;
+  text-transform: uppercase;
+}
+.event-section p{
+color: black;
+font-size: 14px;
+line-height: 22px;
+padding: 10px;
+text-align: center;
+}
+.mercy {
+  color: white;
+  text-align: center;
+}
+.mercy a {
+  color: white;
+}
